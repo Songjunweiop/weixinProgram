@@ -1,0 +1,6 @@
+<view class="button" >
+	<button bindtap='saomiao'>点击扫描二维码</button>
+</view>
+<view class="button" >
+	<button bindtap='wifi'>查看网络状态</button>
+</view>

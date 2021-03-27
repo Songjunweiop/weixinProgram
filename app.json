@@ -1,0 +1,38 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/join/join",
+        "pages/exemple/exemple"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#c7b4ff",
+        "navigationBarTitleText": "爱石的宋",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "selectedColor": "#c7b4ff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "images/if_apple_2003315.png",
+                "selectedIconPath": "images/if_grapes_2003307.png"
+            },
+            {
+                "pagePath": "pages/join/join",
+                "text": "和她",
+                "iconPath": "images/if_orange_2003306.png",
+                "selectedIconPath": "images/if_lemon_2003309.png"
+            },
+            {
+                "pagePath": "pages/exemple/exemple",
+                "text": "示例",
+                "iconPath": "images/if_pineapple_2003312.png",
+                "selectedIconPath": "images/if_watermelon_2003313.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,47 @@
+<!--pages/join/join.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"  mode='aspectFill' />
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- <audio podter="{{myaudio.podter}}" src='{{myaudio.src}}' name='{{myaudio.name}}' author='{{myaudio.author}}' loop controls action="{{myaudio.action}}"></audio> -->
+<!-- <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio> -->
+
+
+<!-- <view class="section">
+  <video id="myVideo" src="http://121.51.32.151/vcloud1049.tc.qq.com/1049_M2115100003SaEZ21imHeb1001571568.f40.mp4?vkey=CD3448364D5B591F3B795AE8B72E25E256FBAC9E2C1532E6E8D8D7AF61C4A3D1AAA37F2D5BE24A3018272CF02DA7F7C7601E955FCB5D8714E49D495C875D7F8289D25608F8D98B8301A22F749A4EF6BA0C92358DD7C613E1"
+    danmu-list="{{danmuList}}" enable-danmu danmu-btn controls vslide-gesture-in-fullscreen vslide-gesture="true"></video>
+
+</view> -->
+
+
+<view class='top'>
+  <view class='img' wx:for="{{proList}}" bindtap='goto' data-index='{{index}}'>
+    <image class='image' src='{{item.img}}' mode='aspectFill'></image>
+    <view class='body'>
+      <view class='time'>{{item.time}}</view>
+      <view class='place'>{{item.place}}</view>
+      <view class='foot'>
+        <image src='{{item.foot}}' class='detial'></image>
+      </view>
+    </view>
+  </view>
+
+
+</view>
+<view class='footer'>
+  <text class='luyuan'>我们的路还很远很远·····\n</text>
+  <text class='weiwan'>未完待续·····</text>
+</view>
+
+<text>\n\n</text>
+
+<view class='ft'>
+  <button bindtap='callme'>call me</button>
+</view>
+
+<text>\n</text>
